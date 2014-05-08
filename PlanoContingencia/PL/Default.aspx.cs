@@ -102,7 +102,7 @@ namespace PlanoContingencia
                     //carrega a variável de sessão para o código do utilizador
                     Session["vs_cod_utilizador"] = cod_utilizador;
 
-                    Response.Redirect("cpanel.aspx");
+                    Response.Redirect("main.aspx");
                 }
             }
         }
